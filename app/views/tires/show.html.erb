@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Marca:</strong>
+  <%= @tire.marca %>
+</p>
+
+<p>
+  <strong>Rin:</strong>
+  <%= @tire.rin %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @tire.owner %>
+</p>
+
+<%= link_to 'Edit', edit_tire_path(@tire) %> |
+<%= link_to 'Back', tires_path %>
